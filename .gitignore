@@ -1,0 +1,67 @@
+# ============================================
+# SENSITIVE FILES - NEVER UPLOAD THESE
+# ============================================
+
+# Firebase Admin SDK credentials
+*adminsdk*.json
+home-security-f3878-firebase-adminsdk-fbsvc-d371b1cb8a.json
+Simulators/home-security-f3878-firebase-adminsdk-fbsvc-d371b1cb8a.json
+
+# Device encryption credentials
+device_credentials.json
+DesktopApp/device_credentials.json
+
+# ============================================
+# DESKTOP APP
+# ============================================
+DesktopApp/Videos/
+DesktopApp/codes/__pycache__/
+DesktopApp/env/
+DesktopApp/__pycache__/
+*.pyc
+*.pyo
+
+# ============================================
+# FLUTTER MOBILE APP
+# ============================================
+home_security/.dart_tool/
+home_security/build/
+home_security/.flutter-plugins-dependencies
+home_security/.pub-cache/
+home_security/.pub/
+home_security/android/app/debug/
+home_security/android/app/profile/
+home_security/android/app/release/
+home_security/android/.gradle/
+home_security/android/.kotlin/
+home_security/.idea/
+*.iml
+*.ipr
+*.iws
+
+# ============================================
+# ESP32 HARDWARE
+# ============================================
+smart device/.pio/
+smart device/.vscode/c_cpp_properties.json
+smart device/.vscode/launch.json
+smart device/.vscode/.browse.c_cpp.db*
+
+# ============================================
+# SIMULATORS
+# ============================================
+Simulators/env/
+
+# ============================================
+# DOCUMENTATION
+# ============================================
+Documentation/~$*.docx
+
+# ============================================
+# GENERAL
+# ============================================
+.DS_Store
+*.log
+*.swp
+.vscode/
+images/

@@ -1,0 +1,9 @@
+opencv-python
+paho-mqtt
+PyQt6
+cryptography
+qrcode
+pillow
+google-genai
+firebase-admin
+cloudinary
